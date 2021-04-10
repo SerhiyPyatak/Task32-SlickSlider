@@ -1,0 +1,62 @@
+@import "../node_modules/normalize-scss/sass/normalize/import-now";
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 400px;
+    position:relative;
+
+    &__item {
+        height: 400px;
+        width:  440px;
+    }
+}
+
+.arrow-previous {
+    background-image: url('../img/leftarrow.jpg');
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    z-index: 1;
+    right: -110px;
+    top: calc(50% - 50px);
+}
+
+.arrow-next {
+    background-image: url('../img/right-arrow.jpg');
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: -110px;
+    top: calc(50% - 50px);
+}
+
+#magazine, #magazine1 {
+    background-image: url('../img/magazine.jpg');
+    background-repeat: no-repeat;
+}
+
+#cirquit, #cirquit1 {
+    background-image: url('../img/cirquit.jpg');
+    background-repeat: no-repeat;
+}
+
+#bicycle, #bicycle1 {
+    background-image: url('../img/bicycle.jpg');
+    background-repeat: no-repeat;
+}
+
+#feedex, #feedex1 {
+    background-image: url('../img/feedex.jpg');
+    background-repeat: no-repeat;
+}
