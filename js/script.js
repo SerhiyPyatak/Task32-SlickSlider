@@ -1,5 +1,4 @@
 "use strict";
-
 $(  document   ).ready(function(){
 	const prevArrow = '<div class="arrow-previous"></div>';
 	const       nextArrow = '<div class="arrow-next"></div>';
