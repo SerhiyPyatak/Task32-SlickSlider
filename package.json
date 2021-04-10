@@ -19,6 +19,8 @@
     "browserlist": "^1.0.1",
     "clean-css-cli": "^5.2.1",
     "eslint-config-airbnb": "^18.2.1",
+    "jquery": "^3.6.0",
+    "jQuery": "^1.7.4",
     "normalize-scss": "^7.0.1",
     "postcss": "^8.2.8",
     "postcss-cli": "^8.3.1",
